@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <linearGradient id="ogBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#02143B"/>
+      <stop offset="50%" stop-color="#04318A"/>
+      <stop offset="100%" stop-color="#0755DE"/>
+    </linearGradient>
+    <linearGradient id="textGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="70%" stop-color="#BFD8FF"/>
+      <stop offset="100%" stop-color="#FCD400"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Fundo -->
+  <rect width="1200" height="630" fill="url(#ogBg)"/>
+
+  <!-- Brilhos radiais decorativos -->
+  <circle cx="1050" cy="150" r="300" fill="#FF2E92" opacity="0.18" filter="blur(80px)"/>
+  <circle cx="150" cy="500" r="350" fill="#FCD400" opacity="0.12" filter="blur(90px)"/>
+
+  <!-- Logo Multilig -->
+  <g transform="translate(100, 100)">
+    <rect width="80" height="80" rx="20" fill="#0755DE" stroke="rgba(255,255,255,0.3)" stroke-width="2"/>
+    <path d="M18 42 A24 24 0 0 1 62 42" fill="none" stroke="#FFFFFF" stroke-width="5" stroke-linecap="round"/>
+    <path d="M26 50 A14 14 0 0 1 54 50" fill="none" stroke="#FCD400" stroke-width="5" stroke-linecap="round"/>
+    <circle cx="40" cy="60" r="5" fill="#FF2E92"/>
+    <text x="105" y="52" font-family="system-ui, -apple-system, sans-serif" font-size="44" font-weight="900" fill="#FFFFFF">MULTI<tspan fill="#FCD400">LIG</tspan></text>
+    <text x="108" y="76" font-family="system-ui, -apple-system, sans-serif" font-size="16" font-weight="700" fill="#BFD8FF" letter-spacing="4">INTERNET &amp; FIBRA</text>
+  </g>
+
+  <!-- Selo 30 anos -->
+  <g transform="translate(850, 95)">
+    <rect width="250" height="52" rx="26" fill="rgba(252,212,0,0.15)" stroke="#FCD400" stroke-width="2"/>
+    <text x="125" y="33" font-family="system-ui, -apple-system, sans-serif" font-size="18" font-weight="800" fill="#FCD400" text-anchor="middle">🏆 30 ANOS DE TRADIÇÃO</text>
+  </g>
+
+  <!-- Headline Principal -->
+  <text x="100" y="270" font-family="system-ui, -apple-system, sans-serif" font-size="56" font-weight="900" fill="url(#textGrad)">Internet 100% Fibra Óptica</text>
+  <text x="100" y="340" font-family="system-ui, -apple-system, sans-serif" font-size="56" font-weight="900" fill="#FFFFFF">em Curitiba e Região</text>
+
+  <!-- Subtítulo -->
+  <text x="100" y="410" font-family="system-ui, -apple-system, sans-serif" font-size="24" font-weight="500" fill="#D1E0FF">Ultra velocidade, Wi-Fi 6 de alta potência e suporte humanizado local.</text>
+
+  <!-- Badges inferiores -->
+  <g transform="translate(100, 480)">
+    <!-- Badge 1 -->
+    <rect width="280" height="60" rx="14" fill="rgba(255,255,255,0.08)" stroke="rgba(255,255,255,0.2)" stroke-width="1.5"/>
+    <text x="25" y="37" font-family="system-ui, -apple-system, sans-serif" font-size="20" font-weight="700" fill="#FFFFFF">⚡ Até 1 Giga de Fibra</text>
+
+    <!-- Badge 2 -->
+    <rect x="310" width="310" height="60" rx="14" fill="rgba(255,255,255,0.08)" stroke="rgba(255,255,255,0.2)" stroke-width="1.5"/>
+    <text x="335" y="37" font-family="system-ui, -apple-system, sans-serif" font-size="20" font-weight="700" fill="#FFFFFF">📞 Fone: (41) 3245-4747</text>
+
+    <!-- Badge 3 -->
+    <rect x="650" width="350" height="60" rx="14" fill="rgba(37,211,102,0.2)" stroke="#25D366" stroke-width="1.5"/>
+    <text x="675" y="37" font-family="system-ui, -apple-system, sans-serif" font-size="20" font-weight="700" fill="#7CF2B2">📍 Sede Própria: Santo Inácio</text>
+  </g>
+</svg>

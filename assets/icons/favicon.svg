@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
+  <defs>
+    <linearGradient id="gradBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0755DE"/>
+      <stop offset="100%" stop-color="#02143B"/>
+    </linearGradient>
+    <linearGradient id="gradAcc" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FF2E92"/>
+      <stop offset="100%" stop-color="#FCD400"/>
+    </linearGradient>
+  </defs>
+  <!-- Background com cantos arredondados -->
+  <rect width="128" height="128" rx="32" fill="url(#gradBg)"/>
+  <rect x="2" y="2" width="124" height="124" rx="30" fill="none" stroke="rgba(255,255,255,0.2)" stroke-width="2"/>
+  
+  <!-- Símbolo de ondas de Fibra Óptica / Sinal -->
+  <path d="M28 68 A42 42 0 0 1 100 68" fill="none" stroke="#FFFFFF" stroke-width="8" stroke-linecap="round"/>
+  <path d="M42 80 A24 24 0 0 1 86 80" fill="none" stroke="#FCD400" stroke-width="8" stroke-linecap="round"/>
+  <circle cx="64" cy="94" r="8" fill="#FF2E92"/>
+</svg>
